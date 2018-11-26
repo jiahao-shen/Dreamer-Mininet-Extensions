@@ -29,7 +29,7 @@
 # This code has been taken from mininet's example bind.py, but we had to fix some stuff
 # because some thing don't work properly (for example xterm)
 
-ENABLE_SEGMENT_ROUTING = False
+ENABLE_SEGMENT_ROUTING = True
 
 import sys
 import shutil
