@@ -89,8 +89,8 @@ class MininetOSHI(Mininet):
 
     temp_cfg = "temp.cfg"
     VS_OPTION = '-o'
-    RYU_PATH = '/home/user/workspace/dreamer-ryu/ryu/app/'
-    PROJECT_PATH = '/home/user/workspace/Dreamer-Mininet-Extensions/'
+    RYU_PATH = '$HOME/SDN/dreamer-ryu/ryu/app/'
+    PROJECT_PATH = '$HOME/SDN/Dreamer-Mininet-Extensions/'
     #OVERALL_INFO_FILE = '/tmp/overall_info.json'
 
     
@@ -1019,8 +1019,8 @@ class MininetOSHI(Mininet):
 
 	temp_cfg = "temp.cfg"
 	VS_OPTION = '-o'
-	RYU_PATH = '/home/user/workspace/ryu/ryu/app/'
-	PROJECT_PATH = '/home/user/workspace/Dreamer-Mininet-Extensions/'
+	RYU_PATH = '$HOME/SDN/dreamer-ryu/ryu/app/'
+	PROJECT_PATH = '$HOME/SDN/Dreamer-Mininet-Extensions/'
 
 	
 	def __init__(self, verbose=False):
