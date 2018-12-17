@@ -39,7 +39,7 @@ from ingress_classifications import *
 from mininet.cli import CLI
 from mininet.log import lg, info, error
 
-parser_path = "$HOME/SDN/Dreamer-Topology-Parser-and-Validator/"
+parser_path = "$HOME/SDN/Dreamer-Topology-Parser/"
 if parser_path == "":
     print "Error : Set parser_path variable in mininet_deployer.py"
     sys.exit(-2)
